@@ -2,7 +2,9 @@ cpfValidator = cpf => {
 
   let sum = 0;
   let rest;
- 
+
+  cpf = cpf.replace(/[^\d]+/g,'');
+
   if (cpf.length !== 11 || 
   cpf === "00000000000" || 
   cpf === "11111111111" || 
