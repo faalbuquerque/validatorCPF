@@ -19,20 +19,20 @@ describe('Validacao de numeros de CPF', () => {
 		
     });
 		
-    it('CPF invalidos devem retornar false', () => {
+    it('CPF invalido deve retornar false', () => {
 	
       expect(cpfWritten.cpfValidator('35743443841').to.equal('false'));
 		
     });
 		
 
-    it('CPF com espacos em branco devem retornar true', () => {
+    it('CPF com espacos em branco deve retornar true', () => {
 	
       expect(cpfWritten.cpfValidator('357 434 438 40').to.equal('false'));
 		
     });
 		
-    it('CPF com ponto e traco devem retornar true', () => {
+    it('CPF com ponto e traco deve retornar true', () => {
 	
       expect(cpfWritten.cpfValidator('357.434.438-40').to.equal('false'));
 		
