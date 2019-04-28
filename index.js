@@ -40,7 +40,6 @@ return true;
 
 }
 
-let cpf = "32197584871";
 console.log(cpfValidator(cpf));
 
 
