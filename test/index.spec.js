@@ -1,49 +1,45 @@
-const mocha = require('mocha');
-const chai = require('chai');
-const expect = chai.expect;
+// executar mocha no terminal com o comando: node node_modules/.bin/mocha
+
+const assert = require('chai').assert;
 const cpfWritten = require('../lib/index');
 
-describe('Validacao de numeros de CPF', () => {
+describe('cpfWritten()', () => {
 
-  describe('cpfValidator', () => {
-
-    it('CPF em branco deve retornar false', () => {
+  it('CPF em branco deve retornar false', () => {
 	
-      expect(cpfWritten.cpfValidator('').to.equal('false'));
-		
-    });
-		
-    it('CPF valido deve retornar true', () => {
-	
-      expect(cpfWritten.cpfValidator('35743443840').to.equal('true'));
-		
-    });
-		
-    it('CPF invalido deve retornar false', () => {
-	
-      expect(cpfWritten.cpfValidator('35743443841').to.equal('false'));
-		
-    });
-		
-
-    it('CPF com espacos em branco deve retornar true', () => {
-	
-      expect(cpfWritten.cpfValidator('357 434 438 40').to.equal('false'));
-		
-    });
-		
-    it('CPF com ponto e traco deve retornar true', () => {
-	
-      expect(cpfWritten.cpfValidator('357.434.438-40').to.equal('false'));
-		
-    });
-		
-    it('CPF com letras deve retornar false', () => {
-	
-      expect(cpfWritten.cpfValidator('35y43a438m40').to.equal('false'));
-		
-    });
+    assert.equal(cpfValidator(''), false);
 		
   });
 		
+  it('CPF valido deve retornar true', () => {
+	
+    assert.equal(cpfValidator('35743443840'), true);
+		
+  });
+		
+  it('CPF invalido deve retornar false', () => {
+	
+    assert.equal(cpfValidator('35743443841'), false);
+		
+  });
+
+  it('CPF com espacos em branco deve retornar true', () => {
+	
+    assert.equal(cpfValidator('357 434 438 40'), true);
+		
+  });
+    
+  it('CPF com ponto e traco deve retornar true', () => {
+	
+    assert.equal(cpfValidator('357.434.438-40'), true);
+		
+  });
+    
+  it('CPF com letras deve retornar false', () => {
+	
+    assert.equal(cpfValidator('35y43a438m40'), false);
+		
+  }); 
+		
 });
+		
