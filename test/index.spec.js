@@ -1,4 +1,5 @@
-// executar mocha no terminal com o comando: node node_modules/.bin/mocha
+// executar mocha: node node_modules/.bin/mocha
+// executar nyc: sudo nyc mocha
 
 const assert = require('chai').assert;
 const cpfSearch = require('../lib/index');
