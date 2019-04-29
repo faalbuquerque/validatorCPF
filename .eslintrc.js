@@ -13,27 +13,17 @@ module.exports = {
         'ecmaVersion': 2018
     },
     'rules': {
-        'indent': [
-            'error',
-            2
-        ],
-        'linebreak-style': [
-            'error',
-            'unix'
-        ],
-        'quotes': [
-            'error',
-            'single'
-        ],
-        'semi': [
-            'error',
-            'always'
-        ],
-        'camelcase': 2,
-        'id-length': 2,
-        'keyword-spacing': 2,
-        'space-infix-ops': 2,
-        'comma-spacing': 2,
+        "indent": ["error", 2],
+        'linebreak-style': ['error','unix'],
+        'quotes': ['error','single'],
+        'semi': ['error','always'],
+
+        'camelcase': ["error", 2],
+        'id-length': ["error", 2],
+        'keyword-spacing': ["error", 2],
+        'space-infix-ops': ["error", 2],
+        'comma-spacing': ["error", 2],
+
         'space-before-blocks': 2,
         'spaced-comment': 2,
         'key-spacing': 2,
