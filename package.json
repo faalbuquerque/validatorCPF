@@ -1,17 +1,20 @@
 {
-  "name": "eslint-project",
+  "name": "cpfvalidatorfabi",
   "version": "1.0.0",
   "description": "CPF Validator ",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/faalbuquerque/validatorCPF.git"
   },
+
   "author": "Fabiane Albuquerque",
   "license": "ISC",
+
   "dependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",

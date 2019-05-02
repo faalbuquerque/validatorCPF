@@ -1,4 +1,4 @@
-# Validador de CPF
+# Validador de CPF 
 
 Esta biblioteca foi desenvolvida para validação de CPF, ela retorna se o CPF informado é valido (true) ou inválido (false).
 

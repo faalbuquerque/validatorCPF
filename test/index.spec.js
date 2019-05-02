@@ -1,10 +1,6 @@
-// executar mocha: node node_modules/.bin/mocha
-// executar nyc: sudo nyc mocha
-
 const assert = require('chai').assert;
 const cpfSearch = require('../lib/index');
 const cpfTest = cpfSearch.cpfValidator;
-
 
 describe('Testes da funcao cpfValidator que valida CPFs', () => {
 
@@ -45,4 +41,7 @@ describe('Testes da funcao cpfValidator que valida CPFs', () => {
   }); 
 		
 });
+
+// executar mocha: node node_modules/.bin/mocha
+// executar nyc: sudo nyc mocha
 		
