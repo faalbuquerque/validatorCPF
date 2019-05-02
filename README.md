@@ -10,10 +10,10 @@ $  npm install cpfvalidatorfabi
 ### Utilização:
 ```
 > const enterCPF = require("cpfvalidatorfabi");
-> console.log(cpfValidator("72351176308"))
+> enterCPF.cpfValidator("72351176308")
 > // return true
 ```
 
 ### Roadmap oficial do projeto
-#### versão 1.0.0 (released)
+#### versão 1.0.3 (released)
 **Funcionalidade:** Verifica se CPFs são validos ou inválidos.
