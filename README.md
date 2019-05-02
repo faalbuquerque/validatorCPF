@@ -4,13 +4,13 @@ Esta biblioteca foi desenvolvida para validação de CPF, ela retorna se o CPF i
 
 ### Instalação:
 ```
-$  npm install eslinter-project
+$  npm install cpfvalidatorfabi
 ```
 
 ### Utilização:
 ```
-> const enterCPF = require("eslinter-project");
-> console.log(cpfValidator(72351176308))
+> const enterCPF = require("cpfvalidatorfabi");
+> console.log(cpfValidator("72351176308"))
 > // return true
 ```
 
