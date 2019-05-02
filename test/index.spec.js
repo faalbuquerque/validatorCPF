@@ -21,18 +21,6 @@ describe('Testes da funcao cpfValidator que valida CPFs', () => {
     assert.equal(cpfTest('35743443841'), false);
 		
   });
-
-  it('CPF com espacos em branco deve retornar true', () => {
-	
-    assert.equal(cpfTest('357 434 438 40'), true);
-		
-  });
-    
-  it('CPF com ponto e traco deve retornar true', () => {
-	
-    assert.equal(cpfTest('357.434.438-40'), true);
-		
-  });
     
   it('CPF com letras deve retornar false', () => {
 	
