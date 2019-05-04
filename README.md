@@ -16,4 +16,3 @@ $  npm install cpfvalidatorfabi
 
 ### Roadmap oficial do projeto
 #### versão 1.0.3 (released)
-**Funcionalidade:** Verifica se CPFs são validos ou inválidos.
