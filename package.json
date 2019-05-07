@@ -13,9 +13,9 @@
   "author": "Fabiane Albuquerque",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/faalbuquerque/cpfValidator/issues"
+    "url": "https://github.com/faalbuquerque/validatorCPF/issues"
   },
-  "homepage": "https://github.com/faalbuquerque/cpfValidator#readme",
+  "homepage": "https://faalbuquerque.github.io/validatorCPF/",
   "dependencies": {
     "eslint": "^5.16.0"
   },

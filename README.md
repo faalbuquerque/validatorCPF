@@ -30,7 +30,6 @@ A aplicação foi desenvolvida em javaScript utilizando regra matemática espec�
 Caso queira entender a logica <a href="https://www.geradorcpf.com/algoritmo_do_cpf.htm">clique aqui.</a>
 Para efetuar testes utilizei as ferramentas do NPM: Mocha, Chai e Nyc. Para padronizar o codigo e prevenir erros, utilizei  a ferramenta eslint.
 ___
-
 ### Roadmap oficial do projeto
 
 ### versão 1.0.3 (released) 
